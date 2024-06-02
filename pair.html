@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CLASSIC AI PAIRING CODE</title>
+  <title>AMEENXNT PAIRING CODE</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
@@ -97,15 +97,15 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">Keiko 𝑷𝑨𝑰𝑹𝑰𝑵𝑮 𝑪𝑶𝑫𝑬</h3>
+            <h3 class="centered-text">𝐊𝐄𝐈𝐊𝐎 𝐌𝐎𝐉𝐎 𝐕𝟔</h3>
             <br>
             <h6 class="centered-text">𝙿𝙻𝙴𝙰𝚂𝙴 𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙽𝚄𝙼𝙱𝙴𝚁 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙲𝙾𝚄𝙽𝚃𝚁𝚈 𝙲𝙾𝙳𝙴 (+).</h6>
-            <h6 class="centered-text">Made By 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒</h6>
+            <h6 class="centered-text">Made By 𝐀𝐌𝐄𝐄𝐍</h6>
             <div class="input-container">
-                <input placeholder="Eg 254104301695" type="number" id="number" placeholder="𝙿𝙻𝙴𝙰𝚂𝙴 𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙽𝚄𝙼𝙱𝙴𝚁 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙲𝙾𝚄𝙽𝚃𝚁𝚈 𝙲𝙾𝙳𝙴 (+)." name="">
-                <button id="submit">Enter</button>
+                <input placeholder="Eg 916238768108" type="number" id="number" placeholder="𝙿𝙻𝙴𝙰𝚂𝙴 𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙽𝚄𝙼𝙱𝙴𝚁 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙲𝙾𝚄𝙽𝚃𝚁𝚈 𝙲𝙾𝙳𝙴 (+)." name="">
+                <button id="submit">GET CODE</button>
             </div>
-            <a id="waiting-message" class="centered-text" style="display: none;">Getting Code...</a>
+            <a id="waiting-message" class="centered-text" style="display: none;">AmeenInt Requesting Code..</a>
             <br>
             <br>
             <main id="pair"></main>
@@ -128,7 +128,7 @@
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('YOUR CODE: ', ''));
       obj.innerText = "COPIED";
-      obj.style = "color: blue; font-weight: bold";
+      obj.style = "color: green; font-weight: bold";
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
@@ -161,10 +161,10 @@
         c.type = "text";
         c.value = "+" + bb;
         c.style = "color: black; font-size: 20px";
-        a.innerHTML = '<a style="color: white; font-weight: bold;">Generating Code...</a><br><br>';
+        a.innerHTML = '<a style="color: white; font-weight: bold;">AmeenInt Generating Code...</a><br><br>';
         let { data } = await axios(`/code?number=${bc}`);
         let code = data.code || "Service is Currently Unavailable";
-        a.innerHTML = '<font id="copy" onclick="Copy()" style="color: white; font-weight: bold;" size="5">YOUR CODE: <span style="color: yellow; font-weight: bold;">' + code + '</span></font><br><br><br>';
+        a.innerHTML = '<font id="copy" onclick="Copy()" style="color: white; font-weight: bold;" size="5">YOUR CODE: <span style="color: blue; font-weight: bold;">' + code + '</span></font><br><br><br>';
       }
     });
   </script>
