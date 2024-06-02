@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
                 },
                 printQRInTerminal: false,
                 logger: pino({level: "fatal"}).child({level: "fatal"}),
-                browser: ["Chrome (MacOs)", "Safari (Ubuntu)", "Chrome (Linux)"]
+                browser: ["𝐊𝐞𝐢𝐤𝐨 𝐕𝟓🌩️", "𝞓𝞛𝞢𝞢𝞜𝞦𝞜𝙏🌩️", "𝐊𝐞𝐢𝐤𝐨 𝐕𝟓🌩️"]
              });
              if(!Pair_Code_By_Black_Castro.authState.creds.registered) {
                 await delay(1500);
@@ -57,21 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id, { text: '' + b64data });
 
                let GHOST_MD_TEXT = `
-🪀Support/Contact Developer
+*🌩️HOLA USER I AM AMEENINT*
 
 
-⎆Welcome to Classic Bot
+ ☞ Welcome to AmeenInt World
 
-⎆Telegram Chat: https://t.me/+hhQQxFUABd81MDM0
+ ☞ Session Id For Keiko Bot
 
-⎆WhatsApp Gc1: https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk
+ ☞ Support Group: https://chat.whatsapp.com/GVxT4w51GIU3sndNPZGTnw
 
-⎆WhatsApp Number: +254104301695
+ ☞ Owner Number: wa.me/+916238768108
 
-⎆GitHub: https://github.com/Samue-l1/,`
+ ☞ GitHub: https://github.com/AmeenRepo`
 
 
- await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id,{text:GHOST_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id,{text:KEIKO_V5_},{quoted:session})
  
 
         await delay(100);
