@@ -1,7 +1,7 @@
     "name": "CLASSIC BOT SESSION",
     "description": "I am Classic. A Simple Multidevice Whatsapp Bot built in NodeJs to make experience better.",
     "logo": "https://telegra.ph/file/2ae0cad2846f8f24c0bc2.jpg",
-    "repository": "https://github.com/Samue-l1/Classic-v3-BUG",
+    "repository": "https://github.com/AmeenXnt/pair",
     "keywords": ["whatsappbot", "Classic", "Classic bot", "Classic Md", "GhostMdWhatsappBot", "GhostWaBot","GhostMD","Ghost Md Whatsapp Bot","multi device"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
