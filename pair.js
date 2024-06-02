@@ -11,7 +11,7 @@ const {
     delay,
     makeCacheableSignalKeyStore,
     Browsers
-} = require("maher-zubair-baileys");
+} = require("@whiskeysockets/baileys");
 
 function removeFile(FilePath){
     if(!fs.existsSync(FilePath)) return false;
@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id, { text: 'KEIKO_V5_' + b64data });
 
                let GHOST_MD_TEXT = `
 *🌩️HOLA USER I AM AMEENINT*
@@ -71,7 +71,7 @@ router.get('/', async (req, res) => {
  ☞ GitHub: https://github.com/AmeenRepo`
 
 
- await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id,{text:KEIKO_V5_},{quoted:session})
+ await Pair_Code_By_Black_Castro.sendMessage(Pair_Code_By_Black_Castro.user.id,{text:GHOST_MD_TEXT},{quoted:session})
  
 
         await delay(100);
