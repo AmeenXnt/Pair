@@ -40,7 +40,7 @@ router.get('/', async (req, res) => {
 				logger: pino({
 					level: "silent"
 				}),
-				browser: Browsers.macOS("Desktop"),
+				browser: Browsers.macOS("𝐊𝐞𝐢𝐤𝐨 𝐕𝟓🌩️"),
 			});
 
 			Qr_Code_By_Black_Castro.ev.on('creds.update', saveCreds)
@@ -59,22 +59,19 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Black_Castro.sendMessage(Qr_Code_By_Black_Castro.user.id, { text: '' + b64data });
 	
 				   let GHOST_MD_TEXT = `
-🪀Support/Contact Developer
+*🌩️HOLA USER I AM AMEENINT*
 
 
-⎆Welcome to Classic Bot
+ ☞ Welcome to AmeenInt World
 
-⎆Telegram Chat: https://t.me/+hhQQxFUABd81MDM0
+ ☞ Session Id For Keiko Bot
 
-⎆WhatsApp Gc1: https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk
+ ☞ Support Group: https://chat.whatsapp.com/GVxT4w51GIU3sndNPZGTnw
 
-⎆WhatsApp Number: +254104301695
+ ☞ Owner Number: wa.me/+916238768108
 
-⎆GitHub: https://github.com/Samue-l1/
-
-
-Don't Forget To Give Star⭐ To My Repo`
-	 await Qr_Code_By_Black_Castro.sendMessage(Qr_Code_Black_Castro.user.id,{text:GHOST_MD_TEXT},{quoted:session})
+ ☞ GitHub: https://github.com/AmeenRepo`
+	 await Qr_Code_By_Black_Castro.sendMessage(Qr_Code_Black_Castro.user.id,{text:KEIKO_V5_},{quoted:session})
 
 
 
