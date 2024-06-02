@@ -17,7 +17,7 @@
 ## Deployment Methods
 ---
 1.  ***Click [`FORK`](https://github.com/Samue-l1/Pair/fork) and `Star ⭐ Repository` if you get help from repo.***
-2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Samue-l1/Pair).***
+2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/AmeenXnt/Pair).***
 3. ***Deploy on [`RENDER`](https://dashboard.render.com/login).***
 ```
 RENDER PROCESS:
